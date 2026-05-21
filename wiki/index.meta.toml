@@ -10,20 +10,33 @@ synthesis = []
 id = "L0"
 name = "文字・語彙：仮名 / 漢字 / 語種 / 語構成"
 concept_dirs = ["concepts/01-moji-goi"]
-core_keywords = []
-keywords = []
+core_keywords = ["仮名体系", "漢字体系", "語種体系", "語構成", "数量詞", "オノマトペ"]
+keywords = [
+  { text = "仮名体系", path = "concepts/01-moji-goi/概念-仮名体系.md" },
+  { text = "漢字体系", path = "concepts/01-moji-goi/概念-漢字体系.md" },
+  { text = "語種体系", path = "concepts/01-moji-goi/概念-語種体系.md" },
+  { text = "語構成", path = "concepts/01-moji-goi/概念-語構成.md" },
+  { text = "数量詞", path = "concepts/01-moji-goi/机制-数量詞.md" },
+  { text = "オノマトペ", path = "concepts/01-moji-goi/机制-オノマトペ.md" },
+]
 
 # ── L1 基礎文法 N5-N4 ─────────────────────────────────
 [[layers]]
 id = "L1"
 name = "基礎文法（N5-N4）：動詞活用 / 助詞 / テ形 / 基本文型"
 concept_dirs = ["concepts/02-bunpou-N5N4"]
-core_keywords = ["動詞活用体系", "テ形・タ形", "格助詞体系", "は vs が"]
+core_keywords = ["動詞活用体系", "テ形・タ形", "格助詞体系", "は vs が", "形容詞体系", "基本文型体系"]
 keywords = [
   { text = "動詞活用体系", path = "concepts/02-bunpou-N5N4/概念-動詞活用体系.md" },
   { text = "テ形・タ形", path = "concepts/02-bunpou-N5N4/机制-テ形タ形.md" },
   { text = "格助詞体系", path = "concepts/02-bunpou-N5N4/概念-格助詞体系.md" },
   { text = "は vs が", path = "concepts/02-bunpou-N5N4/机制-は与が.md" },
+  { text = "形容詞体系", path = "concepts/02-bunpou-N5N4/概念-形容詞体系.md" },
+  { text = "基本文型体系", path = "concepts/02-bunpou-N5N4/概念-基本文型体系.md" },
+  { text = "助動詞体系", path = "concepts/02-bunpou-N5N4/概念-助動詞体系.md" },
+  { text = "副助詞体系", path = "concepts/02-bunpou-N5N4/概念-副助詞体系.md" },
+  { text = "存在表現", path = "concepts/02-bunpou-N5N4/机制-存在表現.md" },
+  { text = "授受表現", path = "concepts/02-bunpou-N5N4/机制-授受表現.md" },
 ]
 
 # ── L2 中級文法 N3 ─────────────────────────────────────
@@ -31,29 +44,52 @@ keywords = [
 id = "L2"
 name = "中級文法（N3）：条件 / 受身・使役 / 複合表現 / 接続"
 concept_dirs = ["concepts/03-bunpou-N3"]
-core_keywords = []
-keywords = []
+core_keywords = ["条件表現体系", "ヴォイス体系", "接続表現体系", "アスペクト"]
+keywords = [
+  { text = "条件表現体系", path = "concepts/03-bunpou-N3/概念-条件表現体系.md" },
+  { text = "ヴォイス体系", path = "concepts/03-bunpou-N3/概念-ヴォイス体系.md" },
+  { text = "接続表現体系", path = "concepts/03-bunpou-N3/概念-接続表現体系.md" },
+  { text = "複合動詞体系", path = "concepts/03-bunpou-N3/概念-複合動詞体系.md" },
+  { text = "アスペクト", path = "concepts/03-bunpou-N3/机制-アスペクト.md" },
+  { text = "比較表現", path = "concepts/03-bunpou-N3/机制-比較表現.md" },
+]
 
 # ── L3 上級文法 N2 ─────────────────────────────────────
 [[layers]]
 id = "L3"
 name = "上級文法（N2）：書き言葉文型 / モダリティ / 硬い表現"
 concept_dirs = ["concepts/04-bunpou-N2"]
-core_keywords = []
-keywords = []
+core_keywords = ["モダリティ体系", "書き言葉文型", "複合助詞体系", "形式名詞体系", "N2重要文型"]
+keywords = [
+  { text = "モダリティ体系", path = "concepts/04-bunpou-N2/概念-モダリティ体系.md" },
+  { text = "書き言葉文型", path = "concepts/04-bunpou-N2/概念-書き言葉文型.md" },
+  { text = "複合助詞体系", path = "concepts/04-bunpou-N2/概念-複合助詞体系.md" },
+  { text = "形式名詞体系", path = "concepts/04-bunpou-N2/概念-形式名詞体系.md" },
+  { text = "副詞呼応", path = "concepts/04-bunpou-N2/机制-副詞呼応.md" },
+  { text = "文末制約", path = "concepts/04-bunpou-N2/机制-文末制約.md" },
+  { text = "N2重要文型", path = "concepts/04-bunpou-N2/机制-N2重要文型.md" },
+]
 
 # ── L4 敬語 ────────────────────────────────────────────
 [[layers]]
 id = "L4"
 name = "敬語（横跨 N4-N2）：尊敬語 / 謙譲語 / 丁寧語 / ビジネス"
 concept_dirs = ["concepts/05-keigo"]
-core_keywords = []
-keywords = []
+core_keywords = ["敬語体系", "尊敬語謙譲語変換", "ビジネス敬語"]
+keywords = [
+  { text = "敬語体系", path = "concepts/05-keigo/概念-敬語体系.md" },
+  { text = "尊敬語謙譲語変換", path = "concepts/05-keigo/机制-尊敬語謙譲語変換.md" },
+  { text = "ビジネス敬語", path = "concepts/05-keigo/机制-ビジネス敬語.md" },
+]
 
 # ── L5 読解・聴解 ──────────────────────────────────────
 [[layers]]
 id = "L5"
 name = "読解・聴解：読解戦略 / 聴解技巧 / 試験対策"
 concept_dirs = ["concepts/06-dokkai-choukai"]
-core_keywords = []
-keywords = []
+core_keywords = ["読解戦略体系", "聴解戦略体系", "N2試験対策"]
+keywords = [
+  { text = "読解戦略体系", path = "concepts/06-dokkai-choukai/概念-読解戦略体系.md" },
+  { text = "聴解戦略体系", path = "concepts/06-dokkai-choukai/概念-聴解戦略体系.md" },
+  { text = "N2試験対策", path = "concepts/06-dokkai-choukai/机制-N2試験対策.md" },
+]
