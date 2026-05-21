@@ -18,6 +18,8 @@ keywords = [
   { text = "語構成", path = "concepts/01-moji-goi/概念-語構成.md" },
   { text = "数量詞", path = "concepts/01-moji-goi/机制-数量詞.md" },
   { text = "オノマトペ", path = "concepts/01-moji-goi/机制-オノマトペ.md" },
+  { text = "慣用句ことわざ", path = "concepts/01-moji-goi/机制-慣用句ことわざ.md" },
+  { text = "N2類義語使い分け", path = "concepts/01-moji-goi/机制-N2類義語使い分け.md" },
 ]
 
 # ── L1 基礎文法 N5-N4 ─────────────────────────────────
@@ -52,6 +54,7 @@ keywords = [
   { text = "複合動詞体系", path = "concepts/03-bunpou-N3/概念-複合動詞体系.md" },
   { text = "アスペクト", path = "concepts/03-bunpou-N3/机制-アスペクト.md" },
   { text = "比較表現", path = "concepts/03-bunpou-N3/机制-比較表現.md" },
+  { text = "引用伝聞表現", path = "concepts/03-bunpou-N3/机制-引用伝聞表現.md" },
 ]
 
 # ── L3 上級文法 N2 ─────────────────────────────────────
