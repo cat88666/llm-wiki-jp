@@ -1,6 +1,6 @@
 [settings]
-title = "日本語 N2 知識庫索引"
-description = "面向 N5→N2 学習路径。L0 文字語彙 → L1 基礎文法 → L2 中級文法 → L3 上級文法 → L4 敬語 → L5 読解聴解。"
+title = "日本语 N2 知识库索引"
+description = "面向 N5→N2 学习路径。L0 文字词汇 → L1 基础文法 → L2 中级文法 → L3 上级文法 → L4 敬语 → L5 读解听解。"
 
 summaries = []
 synthesis = []

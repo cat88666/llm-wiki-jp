@@ -1,4 +1,4 @@
-# LLM-Wiki-JP 日本語 N2 知識体系
+# LLM-Wiki-JP 日本语 N2 知识体系
 
 > 基于 Karpathy LLM Wiki 架构的日本語知识编译工程。
 > 原始资料只读，由 AI 持续编译为结构化知识库。目标：N5→N2。
