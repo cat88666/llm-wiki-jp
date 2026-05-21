@@ -1,0 +1,59 @@
+[settings]
+title = "日本語 N2 知識庫索引"
+description = "面向 N5→N2 学習路径。L0 文字語彙 → L1 基礎文法 → L2 中級文法 → L3 上級文法 → L4 敬語 → L5 読解聴解。"
+
+summaries = []
+synthesis = []
+
+# ── L0 文字・語彙 ──────────────────────────────────────
+[[layers]]
+id = "L0"
+name = "文字・語彙：仮名 / 漢字 / 語種 / 語構成"
+concept_dirs = ["concepts/01-moji-goi"]
+core_keywords = []
+keywords = []
+
+# ── L1 基礎文法 N5-N4 ─────────────────────────────────
+[[layers]]
+id = "L1"
+name = "基礎文法（N5-N4）：動詞活用 / 助詞 / テ形 / 基本文型"
+concept_dirs = ["concepts/02-bunpou-N5N4"]
+core_keywords = ["動詞活用体系", "テ形・タ形", "格助詞体系", "は vs が"]
+keywords = [
+  { text = "動詞活用体系", path = "concepts/02-bunpou-N5N4/概念-動詞活用体系.md" },
+  { text = "テ形・タ形", path = "concepts/02-bunpou-N5N4/机制-テ形タ形.md" },
+  { text = "格助詞体系", path = "concepts/02-bunpou-N5N4/概念-格助詞体系.md" },
+  { text = "は vs が", path = "concepts/02-bunpou-N5N4/机制-は与が.md" },
+]
+
+# ── L2 中級文法 N3 ─────────────────────────────────────
+[[layers]]
+id = "L2"
+name = "中級文法（N3）：条件 / 受身・使役 / 複合表現 / 接続"
+concept_dirs = ["concepts/03-bunpou-N3"]
+core_keywords = []
+keywords = []
+
+# ── L3 上級文法 N2 ─────────────────────────────────────
+[[layers]]
+id = "L3"
+name = "上級文法（N2）：書き言葉文型 / モダリティ / 硬い表現"
+concept_dirs = ["concepts/04-bunpou-N2"]
+core_keywords = []
+keywords = []
+
+# ── L4 敬語 ────────────────────────────────────────────
+[[layers]]
+id = "L4"
+name = "敬語（横跨 N4-N2）：尊敬語 / 謙譲語 / 丁寧語 / ビジネス"
+concept_dirs = ["concepts/05-keigo"]
+core_keywords = []
+keywords = []
+
+# ── L5 読解・聴解 ──────────────────────────────────────
+[[layers]]
+id = "L5"
+name = "読解・聴解：読解戦略 / 聴解技巧 / 試験対策"
+concept_dirs = ["concepts/06-dokkai-choukai"]
+core_keywords = []
+keywords = []
