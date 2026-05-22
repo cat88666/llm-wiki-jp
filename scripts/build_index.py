@@ -186,10 +186,9 @@ def render_index(meta: dict, pages: list[Path]) -> str:
 
 def markdown_links(markdown: str) -> set[Path]:
     links: set[Path] = set()
-    for match in re.finditer(r"\]\(([^)#?]+)(?:[#?][^)]*)?\)", markdown):
+    for match in re.finditer(r"\]\((.*?\.md)(?:[#?][^)]*)?\)", markdown):
         target = match.group(1)
-        if target.endswith(".md"):
-            links.add(Path(target))
+        links.add(Path(target))
     return links
 
 

@@ -27,17 +27,17 @@ keywords = [
 id = "L1"
 name = "基础文法（N5-N4）：动词活用 / 助词 / テ形 / 基本文型"
 concept_dirs = ["concepts/02-bunpou-N5N4"]
-core_keywords = ["动词活用体系", "接续形与过去形", "格助词体系", "主题助词 vs 主格助词", "形容词体系", "基本文型体系"]
+core_keywords = ["动词活用体系", "接续形与过去形", "格助词体系", "助词(はが)", "形容词体系", "基本句型"]
 keywords = [
   { text = "动词活用体系", path = "concepts/02-bunpou-N5N4/概念-动词活用体系.md" },
   { text = "接续形与过去形", path = "concepts/02-bunpou-N5N4/机制-接续形与过去形.md" },
   { text = "格助词体系", path = "concepts/02-bunpou-N5N4/概念-格助词体系.md" },
-  { text = "主题助词 vs 主格助词", path = "concepts/02-bunpou-N5N4/机制-主题助词与主格助词.md" },
+  { text = "助词(はが)", path = "concepts/02-bunpou-N5N4/机制-助词(はが).md" },
   { text = "形容词体系", path = "concepts/02-bunpou-N5N4/概念-形容词体系.md" },
-  { text = "基本文型体系", path = "concepts/02-bunpou-N5N4/概念-基本文型体系.md" },
+  { text = "基本句型", path = "concepts/02-bunpou-N5N4/概念-基本句型.md" },
   { text = "助动词体系", path = "concepts/02-bunpou-N5N4/概念-助动词体系.md" },
   { text = "副助词体系", path = "concepts/02-bunpou-N5N4/概念-副助词体系.md" },
-  { text = "存在表达", path = "concepts/02-bunpou-N5N4/机制-存在表达.md" },
+  { text = "存在(あるいる)", path = "concepts/02-bunpou-N5N4/机制-存在(あるいる).md" },
   { text = "授受表达", path = "concepts/02-bunpou-N5N4/机制-授受表达.md" },
   { text = "变形与功能表达总表", path = "concepts/02-bunpou-N5N4/机制-变形与功能表达总表.md" },
   { text = "经典例句", path = "concepts/02-bunpou-N5N4/机制-经典例句.md" },
