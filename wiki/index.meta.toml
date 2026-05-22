@@ -38,7 +38,7 @@ keywords = [
   { text = "助动词体系", path = "concepts/02-bunpou-N5N4/概念-助动词体系.md" },
   { text = "副助词体系", path = "concepts/02-bunpou-N5N4/概念-副助词体系.md" },
   { text = "存在(あるいる)", path = "concepts/02-bunpou-N5N4/机制-存在(あるいる).md" },
-  { text = "授受表达", path = "concepts/02-bunpou-N5N4/机制-授受表达.md" },
+  { text = "授受(もらう)", path = "concepts/02-bunpou-N5N4/机制-授受(もらう).md" },
   { text = "变形与功能表达总表", path = "concepts/02-bunpou-N5N4/机制-变形与功能表达总表.md" },
   { text = "经典例句", path = "concepts/02-bunpou-N5N4/机制-经典例句.md" },
 ]
