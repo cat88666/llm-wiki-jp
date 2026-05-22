@@ -39,6 +39,7 @@ keywords = [
   { text = "副助词体系", path = "concepts/02-bunpou-N5N4/概念-副助词体系.md" },
   { text = "存在表达", path = "concepts/02-bunpou-N5N4/机制-存在表达.md" },
   { text = "授受表达", path = "concepts/02-bunpou-N5N4/机制-授受表达.md" },
+  { text = "N5N4经典例句记忆", path = "concepts/02-bunpou-N5N4/机制-N5N4经典例句记忆.md" },
 ]
 
 # ── L2 中级文法 N3 ─────────────────────────────────────
