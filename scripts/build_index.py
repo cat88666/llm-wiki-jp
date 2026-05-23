@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WIKI_DIR = ROOT / "wiki"
 META_PATH = WIKI_DIR / "index.meta.toml"
 INDEX_PATH = WIKI_DIR / "index.md"
+DIMENSIONS = ["词汇", "词性", "语法", "敬语", "读解", "听解", "考试", "例句"]
 
 
 def load_meta() -> dict:
@@ -39,7 +40,7 @@ def wiki_pages() -> list[Path]:
 
 def link_text(path: str | Path) -> str:
     stem = Path(path).stem
-    for prefix in ("概念-", "机制-", "主题-", "対比-", "戦略-"):
+    for prefix in (*[f"{dimension}-" for dimension in DIMENSIONS], "主题-", "対比-", "戦略-"):
         if stem.startswith(prefix):
             return stem.removeprefix(prefix)
     return stem
@@ -77,9 +78,9 @@ def split_keywords(layer: dict) -> tuple[list[dict], list[dict]]:
     return core, supplemental
 
 
-def concepts_for(layer: dict, pages: set[Path], kind: str) -> list[Path]:
+def pages_for_dimension(layer: dict, pages: set[Path], dimension: str) -> list[Path]:
     result: list[Path] = []
-    expected_prefix = f"{kind}-"
+    expected_prefix = f"{dimension}-"
     for concept_dir in layer.get("concept_dirs", []):
         base = Path(concept_dir)
         result.extend(
@@ -99,22 +100,36 @@ def maintenance_pages(pages: set[Path]) -> list[Path]:
 
 
 def render_concept_table(meta: dict, pages: set[Path]) -> list[str]:
+    active_dimensions = [
+        dimension
+        for dimension in DIMENSIONS
+        if any(p.name.startswith(f"{dimension}-") for p in pages)
+    ]
     lines = [
-        "## 概念・机制索引",
+        "## 维度索引",
         "",
-        "| 层级 | 知识域 | 概念 | 机制 | 核心入口 | 补充关键词 |",
-        "| --- | --- | --- | --- | --- | --- |",
+        "| 层级 | 知识域 | "
+        + " | ".join(active_dimensions)
+        + " | 核心入口 | 补充关键词 |",
+        "| --- | --- | "
+        + " | ".join("---" for _ in active_dimensions)
+        + " | --- | --- |",
     ]
     for layer in meta["layers"]:
-        concepts = concepts_for(layer, pages, "概念")
-        mechanisms = concepts_for(layer, pages, "机制")
+        dimension_pages = {
+            dimension: pages_for_dimension(layer, pages, dimension)
+            for dimension in active_dimensions
+        }
         core_keywords, supplemental_keywords = split_keywords(layer)
+        dimension_cells = [
+            join_links(dimension_pages[dimension]) or "无"
+            for dimension in active_dimensions
+        ]
         lines.append(
-            "| {id} | {name} | {concepts} | {mechanisms} | {core_keywords} | {supplemental_keywords} |".format(
+            "| {id} | {name} | {dimension_cells} | {core_keywords} | {supplemental_keywords} |".format(
                 id=layer["id"],
                 name=layer["name"],
-                concepts=join_links(concepts),
-                mechanisms=join_links(mechanisms),
+                dimension_cells=" | ".join(dimension_cells),
                 core_keywords=join_keywords(core_keywords),
                 supplemental_keywords=join_keywords(supplemental_keywords),
             )

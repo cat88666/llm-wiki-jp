@@ -12,14 +12,14 @@ name = "文字词汇：假名 / 汉字 / 语种 / 构词体系"
 concept_dirs = ["concepts/01-moji-goi"]
 core_keywords = ["假名体系", "汉字体系", "语种体系", "构词体系", "数量词", "拟声拟态词"]
 keywords = [
-  { text = "假名体系", path = "concepts/01-moji-goi/概念-假名体系.md" },
-  { text = "汉字体系", path = "concepts/01-moji-goi/概念-汉字体系.md" },
-  { text = "语种体系", path = "concepts/01-moji-goi/概念-语种体系.md" },
-  { text = "构词体系", path = "concepts/01-moji-goi/概念-构词体系.md" },
-  { text = "数量词", path = "concepts/01-moji-goi/机制-数量词.md" },
-  { text = "拟声拟态词", path = "concepts/01-moji-goi/机制-拟声拟态词.md" },
-  { text = "惯用句与谚语", path = "concepts/01-moji-goi/机制-惯用句与谚语.md" },
-  { text = "N2近义词辨析", path = "concepts/01-moji-goi/机制-N2近义词辨析.md" },
+  { text = "假名体系", path = "concepts/01-moji-goi/词汇-假名体系.md" },
+  { text = "汉字体系", path = "concepts/01-moji-goi/词汇-汉字体系.md" },
+  { text = "语种体系", path = "concepts/01-moji-goi/词汇-语种体系.md" },
+  { text = "构词体系", path = "concepts/01-moji-goi/词汇-构词体系.md" },
+  { text = "数量词", path = "concepts/01-moji-goi/词汇-数量词.md" },
+  { text = "拟声拟态词", path = "concepts/01-moji-goi/词汇-拟声拟态词.md" },
+  { text = "惯用句与谚语", path = "concepts/01-moji-goi/词汇-惯用句与谚语.md" },
+  { text = "N2近义词辨析", path = "concepts/01-moji-goi/词汇-N2近义词辨析.md" },
 ]
 
 # ── L1 基础文法 N5-N4 ─────────────────────────────────
@@ -29,18 +29,18 @@ name = "基础文法（N5-N4）：动词活用 / 助词 / て形 / 基本文型"
 concept_dirs = ["concepts/02-bunpou-N5N4"]
 core_keywords = ["词性(动词)", "语法(时态)", "词性(格助词)", "词性(助词)", "词性(形容词)", "语法句型(はを)"]
 keywords = [
-  { text = "词性(动词)", path = "concepts/02-bunpou-N5N4/概念-词性(动词).md" },
-  { text = "语法(时态)", path = "concepts/02-bunpou-N5N4/机制-语法(时态).md" },
-  { text = "词性(格助词)", path = "concepts/02-bunpou-N5N4/概念-词性(格助词).md" },
-  { text = "词性(助词)", path = "concepts/02-bunpou-N5N4/机制-词性(助词).md" },
-  { text = "词性(形容词)", path = "concepts/02-bunpou-N5N4/概念-词性(形容词).md" },
-  { text = "语法句型(はを)", path = "concepts/02-bunpou-N5N4/概念-语法句型(はを).md" },
-  { text = "词性(助动词)", path = "concepts/02-bunpou-N5N4/概念-词性(助动词).md" },
-  { text = "词性(副助词)", path = "concepts/02-bunpou-N5N4/概念-词性(副助词).md" },
-  { text = "存在(あるいる)", path = "concepts/02-bunpou-N5N4/机制-存在(あるいる).md" },
-  { text = "授受(もらう)", path = "concepts/02-bunpou-N5N4/机制-授受(もらう).md" },
-  { text = "语法(变形)", path = "concepts/02-bunpou-N5N4/机制-语法(变形).md" },
-  { text = "经典例句", path = "concepts/02-bunpou-N5N4/机制-经典例句.md" },
+  { text = "词性(动词)", path = "concepts/02-bunpou-N5N4/词性-动词.md" },
+  { text = "语法(时态)", path = "concepts/02-bunpou-N5N4/语法-时态.md" },
+  { text = "词性(格助词)", path = "concepts/02-bunpou-N5N4/词性-格助词.md" },
+  { text = "词性(助词)", path = "concepts/02-bunpou-N5N4/词性-助词.md" },
+  { text = "词性(形容词)", path = "concepts/02-bunpou-N5N4/词性-形容词.md" },
+  { text = "语法句型(はを)", path = "concepts/02-bunpou-N5N4/语法-句型(はを).md" },
+  { text = "词性(助动词)", path = "concepts/02-bunpou-N5N4/词性-助动词.md" },
+  { text = "词性(副助词)", path = "concepts/02-bunpou-N5N4/词性-副助词.md" },
+  { text = "存在(あるいる)", path = "concepts/02-bunpou-N5N4/语法-存在(あるいる).md" },
+  { text = "授受(もらう)", path = "concepts/02-bunpou-N5N4/语法-授受(もらう).md" },
+  { text = "语法(变形)", path = "concepts/02-bunpou-N5N4/语法-变形.md" },
+  { text = "经典例句", path = "concepts/02-bunpou-N5N4/例句-经典例句.md" },
 ]
 
 # ── L2 中级文法 N3 ─────────────────────────────────────
@@ -50,13 +50,13 @@ name = "中级文法（N3）：条件 / 被动与使役 / 复合表达 / 接续"
 concept_dirs = ["concepts/03-bunpou-N3"]
 core_keywords = ["条件表达体系", "语态体系", "接续表达体系", "体貌"]
 keywords = [
-  { text = "条件表达体系", path = "concepts/03-bunpou-N3/概念-条件表达体系.md" },
-  { text = "语态体系", path = "concepts/03-bunpou-N3/概念-语态体系.md" },
-  { text = "接续表达体系", path = "concepts/03-bunpou-N3/概念-接续表达体系.md" },
-  { text = "复合动词体系", path = "concepts/03-bunpou-N3/概念-复合动词体系.md" },
-  { text = "体貌", path = "concepts/03-bunpou-N3/机制-体貌.md" },
-  { text = "比较表达", path = "concepts/03-bunpou-N3/机制-比较表达.md" },
-  { text = "引用传闻表达", path = "concepts/03-bunpou-N3/机制-引用传闻表达.md" },
+  { text = "条件表达体系", path = "concepts/03-bunpou-N3/语法-条件表达体系.md" },
+  { text = "语态体系", path = "concepts/03-bunpou-N3/语法-语态体系.md" },
+  { text = "接续表达体系", path = "concepts/03-bunpou-N3/语法-接续表达体系.md" },
+  { text = "复合动词体系", path = "concepts/03-bunpou-N3/语法-复合动词体系.md" },
+  { text = "体貌", path = "concepts/03-bunpou-N3/语法-体貌.md" },
+  { text = "比较表达", path = "concepts/03-bunpou-N3/语法-比较表达.md" },
+  { text = "引用传闻表达", path = "concepts/03-bunpou-N3/语法-引用传闻表达.md" },
 ]
 
 # ── L3 上级文法 N2 ─────────────────────────────────────
@@ -66,13 +66,13 @@ name = "上级文法（N2）：书面语文型 / 情态 / 硬表达"
 concept_dirs = ["concepts/04-bunpou-N2"]
 core_keywords = ["情态体系", "书面语文型", "复合助词体系", "形式名词体系", "N2重要句型"]
 keywords = [
-  { text = "情态体系", path = "concepts/04-bunpou-N2/概念-情态体系.md" },
-  { text = "书面语文型", path = "concepts/04-bunpou-N2/概念-书面语文型.md" },
-  { text = "复合助词体系", path = "concepts/04-bunpou-N2/概念-复合助词体系.md" },
-  { text = "形式名词体系", path = "concepts/04-bunpou-N2/概念-形式名词体系.md" },
-  { text = "副词呼应", path = "concepts/04-bunpou-N2/机制-副词呼应.md" },
-  { text = "句末限制", path = "concepts/04-bunpou-N2/机制-句末限制.md" },
-  { text = "N2重要句型", path = "concepts/04-bunpou-N2/机制-N2重要句型.md" },
+  { text = "情态体系", path = "concepts/04-bunpou-N2/语法-情态体系.md" },
+  { text = "书面语文型", path = "concepts/04-bunpou-N2/语法-书面语文型.md" },
+  { text = "复合助词体系", path = "concepts/04-bunpou-N2/语法-复合助词体系.md" },
+  { text = "形式名词体系", path = "concepts/04-bunpou-N2/语法-形式名词体系.md" },
+  { text = "副词呼应", path = "concepts/04-bunpou-N2/语法-副词呼应.md" },
+  { text = "句末限制", path = "concepts/04-bunpou-N2/语法-句末限制.md" },
+  { text = "N2重要句型", path = "concepts/04-bunpou-N2/语法-N2重要句型.md" },
 ]
 
 # ── L4 敬语 ────────────────────────────────────────────
@@ -82,9 +82,9 @@ name = "敬语（横跨 N4-N2）：尊敬语 / 谦让语 / 礼貌语 / 商务"
 concept_dirs = ["concepts/05-keigo"]
 core_keywords = ["敬语体系", "尊敬语谦让语转换", "商务敬语"]
 keywords = [
-  { text = "敬语体系", path = "concepts/05-keigo/概念-敬语体系.md" },
-  { text = "尊敬语谦让语转换", path = "concepts/05-keigo/机制-尊敬语谦让语转换.md" },
-  { text = "商务敬语", path = "concepts/05-keigo/机制-商务敬语.md" },
+  { text = "敬语体系", path = "concepts/05-keigo/敬语-敬语体系.md" },
+  { text = "尊敬语谦让语转换", path = "concepts/05-keigo/敬语-尊敬语谦让语转换.md" },
+  { text = "商务敬语", path = "concepts/05-keigo/敬语-商务敬语.md" },
 ]
 
 # ── L5 阅读理解与听力理解 ──────────────────────────────────────
@@ -94,7 +94,7 @@ name = "阅读理解与听力理解：阅读理解策略 / 听力理解技巧 / 
 concept_dirs = ["concepts/06-dokkai-choukai"]
 core_keywords = ["阅读理解策略体系", "听力理解策略体系", "N2考试对策"]
 keywords = [
-  { text = "阅读理解策略体系", path = "concepts/06-dokkai-choukai/概念-阅读理解策略体系.md" },
-  { text = "听力理解策略体系", path = "concepts/06-dokkai-choukai/概念-听力理解策略体系.md" },
-  { text = "N2考试对策", path = "concepts/06-dokkai-choukai/机制-N2考试对策.md" },
+  { text = "阅读理解策略体系", path = "concepts/06-dokkai-choukai/读解-阅读理解策略体系.md" },
+  { text = "听力理解策略体系", path = "concepts/06-dokkai-choukai/听解-听力理解策略体系.md" },
+  { text = "N2考试对策", path = "concepts/06-dokkai-choukai/考试-N2考试对策.md" },
 ]
