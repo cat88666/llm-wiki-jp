@@ -2,7 +2,7 @@
 title = "日本语 N2 知识库索引"
 description = "面向 N5→N2 学习路径。L0 文字词汇 → L1 基础文法 → L2 中级文法 → L3 上级文法 → L4 敬语 → L5 读解听解。"
 
-summaries = []
+summaries = ["summaries/N2知识难点快速记忆表.md"]
 synthesis = []
 
 # ── L0 文字词汇 ──────────────────────────────────────

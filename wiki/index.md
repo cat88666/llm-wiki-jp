@@ -15,6 +15,12 @@
 | L4 | 敬语（横跨 N4-N2）：尊敬语 / 谦让语 / 礼貌语 / 商务 | 无 | 无 | 无 | [商务敬语](concepts/05-keigo/敬语-商务敬语.md)<br>[尊敬语谦让语转换](concepts/05-keigo/敬语-尊敬语谦让语转换.md)<br>[敬语体系](concepts/05-keigo/敬语-敬语体系.md) | 无 | 无 | 无 | 无 | [敬语体系](concepts/05-keigo/敬语-敬语体系.md) · [尊敬语谦让语转换](concepts/05-keigo/敬语-尊敬语谦让语转换.md) · [商务敬语](concepts/05-keigo/敬语-商务敬语.md) | 无 |
 | L5 | 阅读理解与听力理解：阅读理解策略 / 听力理解技巧 / 考试对策 | 无 | 无 | 无 | 无 | [阅读理解策略体系](concepts/06-dokkai-choukai/读解-阅读理解策略体系.md) | [听力理解策略体系](concepts/06-dokkai-choukai/听解-听力理解策略体系.md) | [N2考试对策](concepts/06-dokkai-choukai/考试-N2考试对策.md) | 无 | [阅读理解策略体系](concepts/06-dokkai-choukai/读解-阅读理解策略体系.md) · [听力理解策略体系](concepts/06-dokkai-choukai/听解-听力理解策略体系.md) · [N2考试对策](concepts/06-dokkai-choukai/考试-N2考试对策.md) | 无 |
 
+## 主题总结
+
+| 主题 | 路径 |
+| --- | --- |
+| [N2知识难点快速记忆表](summaries/N2知识难点快速记忆表.md) | `summaries/N2知识难点快速记忆表.md` |
+
 ## 维护
 
 - [N2合格计划](N2合格计划.md)
