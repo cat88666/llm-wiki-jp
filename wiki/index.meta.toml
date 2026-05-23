@@ -27,12 +27,12 @@ keywords = [
 id = "L1"
 name = "基础文法（N5-N4）：动词活用 / 助词 / テ形 / 基本文型"
 concept_dirs = ["concepts/02-bunpou-N5N4"]
-core_keywords = ["词性(动词)", "接续形与过去形", "词性(格助词)", "助词(はが)", "词性(形容词)", "句型(はを)"]
+core_keywords = ["词性(动词)", "接续形与过去形", "词性(格助词)", "词性(助词)", "词性(形容词)", "句型(はを)"]
 keywords = [
   { text = "词性(动词)", path = "concepts/02-bunpou-N5N4/概念-词性(动词).md" },
   { text = "接续形与过去形", path = "concepts/02-bunpou-N5N4/机制-接续形与过去形.md" },
   { text = "词性(格助词)", path = "concepts/02-bunpou-N5N4/概念-词性(格助词).md" },
-  { text = "助词(はが)", path = "concepts/02-bunpou-N5N4/机制-助词(はが).md" },
+  { text = "词性(助词)", path = "concepts/02-bunpou-N5N4/机制-词性(助词).md" },
   { text = "词性(形容词)", path = "concepts/02-bunpou-N5N4/概念-词性(形容词).md" },
   { text = "句型(はを)", path = "concepts/02-bunpou-N5N4/概念-句型(はを).md" },
   { text = "词性(助动词)", path = "concepts/02-bunpou-N5N4/概念-词性(助动词).md" },
