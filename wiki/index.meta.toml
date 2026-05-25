@@ -40,6 +40,7 @@ keywords = [
   { text = "存在(あるいる)", path = "concepts/02-bunpou-N5N4/语法-存在(あるいる).md" },
   { text = "授受(もらう)", path = "concepts/02-bunpou-N5N4/语法-授受(もらう).md" },
   { text = "语法(变形)", path = "concepts/02-bunpou-N5N4/语法-变形.md" },
+  { text = "动词活用速查", path = "concepts/02-bunpou-N5N4/语法-动词活用速查.md" },
   { text = "经典例句", path = "concepts/02-bunpou-N5N4/例句-经典例句.md" },
 ]
 
