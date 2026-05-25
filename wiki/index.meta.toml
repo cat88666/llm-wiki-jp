@@ -51,7 +51,7 @@ concept_dirs = ["concepts/03-bunpou-N3"]
 core_keywords = ["条件表达体系", "语态体系", "接续表达体系", "体貌"]
 keywords = [
   { text = "条件表达体系", path = "concepts/03-bunpou-N3/语法-条件表达体系.md" },
-  { text = "语态体系", path = "concepts/03-bunpou-N3/语法-语态体系.md" },
+  { text = "语态体系", path = "concepts/03-bunpou-N3/语法-语态(被动使役).md" },
   { text = "接续表达体系", path = "concepts/03-bunpou-N3/语法-接续表达体系.md" },
   { text = "复合动词体系", path = "concepts/03-bunpou-N3/语法-复合动词体系.md" },
   { text = "体貌", path = "concepts/03-bunpou-N3/语法-体貌.md" },
