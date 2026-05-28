@@ -74,6 +74,7 @@ keywords = [
   { text = "副词呼应", path = "concepts/04-bunpou-N2/语法-副词呼应.md" },
   { text = "句末限制", path = "concepts/04-bunpou-N2/语法-句末限制.md" },
   { text = "N2重要句型", path = "concepts/04-bunpou-N2/语法-N2重要句型.md" },
+  { text = "N2情感表达例句", path = "concepts/04-bunpou-N2/例句-N2情感表达.md" },
 ]
 
 # ── L4 敬语 ────────────────────────────────────────────
