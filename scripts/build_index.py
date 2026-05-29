@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WIKI_DIR = ROOT / "wiki"
 META_PATH = WIKI_DIR / "index.meta.toml"
 INDEX_PATH = WIKI_DIR / "index.md"
-DIMENSIONS = ["词汇", "词性", "语法", "敬语", "读解", "听解", "考试", "例句"]
+DIMENSIONS = ["词汇", "词性", "语法", "功能表达", "敬语", "读解", "听解", "考试", "例句"]
 
 
 def load_meta() -> dict:
