@@ -27,26 +27,20 @@ keywords = [
 id = "L1"
 name = "基础文法（N5-N4）：动词活用 / 助词 / て形 / 基本文型"
 concept_dirs = ["concepts/02-bunpou-N5N4"]
-core_keywords = ["词性(动词)", "语法-て形た形", "词性(助词)", "词性(格助词)", "词性(形容词)", "语法-基本句型"]
+core_keywords = ["词性(动词)", "词性(助词)", "词性(形容词)", "语法-基本句型", "词性(助动词)", "语法-变形总览"]
 keywords = [
   { text = "词性(动词)", path = "concepts/02-bunpou-N5N4/词性-动词.md" },
-  { text = "语法-て形た形", path = "concepts/02-bunpou-N5N4/语法-て形た形.md" },
   { text = "词性(助词)", path = "concepts/02-bunpou-N5N4/词性-助词.md" },
-  { text = "词性(格助词)", path = "concepts/02-bunpou-N5N4/词性-格助词.md" },
   { text = "词性(形容词)", path = "concepts/02-bunpou-N5N4/词性-形容词.md" },
-  { text = "语法-基本句型", path = "concepts/02-bunpou-N5N4/语法-基本句型.md" },
   { text = "词性(助动词)", path = "concepts/02-bunpou-N5N4/词性-助动词.md" },
-  { text = "词性(副助词)", path = "concepts/02-bunpou-N5N4/词性-副助词.md" },
-  { text = "主题助词(はが)", path = "concepts/02-bunpou-N5N4/词性-主题助词(はが).md" },
-  { text = "功能表达-存在表达", path = "concepts/02-bunpou-N5N4/功能表达-存在表达.md" },
-  { text = "语法-变形与时态", path = "concepts/02-bunpou-N5N4/语法-变形与时态.md" },
-  { text = "经典例句", path = "concepts/02-bunpou-N5N4/例句-经典例句.md" },
+  { text = "语法-基本句型", path = "concepts/02-bunpou-N5N4/语法-基本句型.md" },
+  { text = "语法-变形总览", path = "concepts/02-bunpou-N5N4/语法-变形总览.md" },
   { text = "功能表达-能力表达", path = "concepts/02-bunpou-N5N4/功能表达-能力表达.md" },
-  { text = "功能表达-目的表达", path = "concepts/02-bunpou-N5N4/功能表达-目的表达.md" },
-  { text = "功能表达-邀请建议表达", path = "concepts/02-bunpou-N5N4/功能表达-邀请建议表达.md" },
-  { text = "功能表达-意志计划表达", path = "concepts/02-bunpou-N5N4/功能表达-意志计划表达.md" },
-  { text = "功能表达-变化表达", path = "concepts/02-bunpou-N5N4/功能表达-变化表达.md" },
+  { text = "功能表达-目的变化表达", path = "concepts/02-bunpou-N5N4/功能表达-目的变化表达.md" },
   { text = "功能表达-授受表达", path = "concepts/02-bunpou-N5N4/功能表达-授受表达.md" },
+  { text = "功能表达-意志邀请计划", path = "concepts/02-bunpou-N5N4/功能表达-意志邀请计划.md" },
+  { text = "功能表达-比较表达", path = "concepts/02-bunpou-N5N4/功能表达-比较表达.md" },
+  { text = "经典例句", path = "concepts/02-bunpou-N5N4/例句-经典例句.md" },
 ]
 
 # ── L2 中级文法 N3 ─────────────────────────────────────
